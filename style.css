@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+nav{
+    width: 1200px;
+    height: fit-content;
+    margin: auto;
+}
+
+.title{
+    width: 1200px;
+    height: 60px;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+    justify-content: space-evenly;
+}
+
+.title .hoja{
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    background-color:#00d1b2;
+}
+
+.title h1{
+    font-size: 40px;
+    margin-left: 10px;
+}
+
+.title img{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.search{
+    width: 600px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 20px;
+    outline:none;
+    background: #ece8e4;
+}
+
+.search::placeholder{
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.title a{
+    text-decoration:solid;
+    font-weight:bold;
+    color: black;
+    margin-right: 50px;
+    
+}
+
+
+
+/*menu*/
+
+.menu{
+    width: 1200px;
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    align-items: center;
+    border-bottom: 4px solid black;
+    justify-content: center;
+    
+}
+
+.menu ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.menu ul li a{
+    text-decoration:solid;
+    font-weight:bold;
+    color: black;
+    justify-content: space-between;
+    margin: 60px;
+}
+
+/*main*/
+
+main{
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+}
+
+main h1{
+    margin: 30px;
+    word-spacing: 10px;
+    font-size: 48px;
+}
+
+.images{
+    display: flex;
+    flex-direction: row;
+    height: 330px;
+    width: 1200px;
+}
+
+.box{
+    color: white;
+    background-color:#00d1b2;
+    font-size: 23px;
+    text-align: center;
+    width: 400px;
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.box h2{
+    font-size: 27px;
+    width: 200px;
+}
+
+.box span{
+    font-size: 25px;
+    font-weight: 600;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.sedum{
+    width: 365px;
+}
+
+.select{
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 405px;
+}
+
+.select img{
+    height: 220px;
+}
+
+.boxdos{
+    color: white;
+    background-color: #00d1b2;
+    height: fit-content;
+    height: 120px;
+    margin-top: 19px;
+    position: relative;
+}
+
+.select h2{
+    text-align: center;
+    position: absolute;
+    font-size: 18px;
+    left: 25px;
+    bottom: 30px;
+}
+
+
+/* Variery section */
+.variety{   
+    margin-top: 20px;
+    background-color: #a7ede3;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 1160px;
+    height: 200px;
+    padding: 20px;
+}
+
+
+.imageFormat{
+    display: flex;
+    flex-direction: column;
+}
+
+.imageFormat img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.imageFormat span {
+    color: black;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+/* Footer */
+
+.cookies{
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: white;
+    border: 2px solid black;
+    padding: 10px;
+    width: 1200px;
+}
+
+.cookies p {
+    font-weight: bolder;
+    width: 620px;
+}
+
+.cookies button{
+    cursor: pointer;
+    background-color: #00d1b2;
+    color: black;
+    border: 2px solid black;
+    color: white;
+    font-size: 18px;
+    padding: 5px 20px;
+    text-align: center;
+    font-weight: 900;
+    -webkit-box-shadow: 9px 8px 0px 0px #000000; 
+    box-shadow: 9px 8px 0px 0px #000000;
+}
